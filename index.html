@@ -13,23 +13,27 @@
   <body background="https://images.pexels.com/photos/2132008/pexels-photo-2132008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></body>
   <body>
     <div class="center pt-5">
-        <h1>Local Storage</h1>
+        <h1>Ideas</h1>
     </div>
 
-    <div class="container pt-5">
-        <div class="mb-3">
-        
+    <div class="container">
+        <form id='formulario'>
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label" id="label">Ideas</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label" id="label">Escribe tus ideas</label>
+                    <textarea class="form-control" id="texto" rows="3"></textarea>
+                </div>
             </div>
+            <input type="submit" class="btn btn-primary" value="Agregar"></input>
+        </form>
+    </div>  
 
-            <button type="button" class="btn btn-primary">Agregar</button>
-
-            <div class="center">
-                <h1>Lista de ideas</h1>
-                <div id="lista-tweets"></div>
-            </div>
+    <div class="container pt-5" id="contenido"></div> 
+        
+    <div class="center">
+        <h1>Lista de ideas</h1>
+        <div id="lista"></div>
     </div>
     
 
