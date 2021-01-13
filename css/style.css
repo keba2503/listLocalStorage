@@ -26,9 +26,11 @@
 }
 
 li {
-    list-style: none;
+
+   list-style: none;
    font-size: 170%;
     text-transform: uppercase;
+    box-sizing: inherit;
     background: #2A2322;
     opacity: 0.7;
 
@@ -36,8 +38,9 @@ li {
 
 .borrar-tweet,
 .borrar-tweet:hover {
-    float: right;
+    text-decoration: none;
+    margin-left:1rem ;
     cursor: pointer;
-    color: red;
+    color:red;
     font-weight: bold;
 }
